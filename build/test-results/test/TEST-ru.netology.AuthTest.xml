@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.AuthTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-13T12:07:57" hostname="VIVO" time="14.887">
+<testsuite name="ru.netology.AuthTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-13T12:53:02" hostname="VIVO" time="9.067">
   <properties/>
-  <testcase name="Should successfully login with active registered user" classname="ru.netology.AuthTest" time="10.819"/>
-  <testcase name="Should get error message if  login with not registered user" classname="ru.netology.AuthTest" time="1.018"/>
-  <testcase name="An error message should appear if you log in with the wrong login" classname="ru.netology.AuthTest" time="1.016"/>
-  <testcase name="An error message should appear if you log in with the wrong password" classname="ru.netology.AuthTest" time="0.999"/>
-  <testcase name="An error message should appear if you log in with a blocked registered user" classname="ru.netology.AuthTest" time="1.03"/>
+  <testcase name="Should successfully login with active registered user" classname="ru.netology.AuthTest" time="6.682"/>
+  <testcase name="Should get error message if  login with not registered user" classname="ru.netology.AuthTest" time="0.604"/>
+  <testcase name="An error message should appear if you log in with the wrong login" classname="ru.netology.AuthTest" time="0.615"/>
+  <testcase name="An error message should appear if you log in with the wrong password" classname="ru.netology.AuthTest" time="0.59"/>
+  <testcase name="An error message should appear if you log in with a blocked registered user" classname="ru.netology.AuthTest" time="0.574"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:9999/api/system/users
 Proxy:			<none>
@@ -19,8 +19,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "albert.hahn",
-    "password": "1j07odcy",
+    "login": "molly.hilpert",
+    "password": "j6kegbav66",
     "status": "active"
 }
 Request method:	POST
@@ -36,8 +36,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "miriam.parisian",
-    "password": "o0o477bxmzu3h",
+    "login": "edmund.emmerich",
+    "password": "8by2ufcutqus54p",
     "status": "active"
 }
 Request method:	POST
@@ -53,8 +53,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "oliver.fay",
-    "password": "g9zs89u3sfw9",
+    "login": "brain.pollich",
+    "password": "hdk40wvar",
     "status": "active"
 }
 Request method:	POST
@@ -70,17 +70,17 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "grady.torp",
-    "password": "8i9nc0h2fx5a",
+    "login": "dana.macejkovic",
+    "password": "m60pls5pszsqjv",
     "status": "blocked"
 }
 ]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-февр. 13, 2024 5:08:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+февр. 13, 2024 5:53:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 121
-февр. 13, 2024 5:08:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+февр. 13, 2024 5:53:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 121.0.6167.161. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
